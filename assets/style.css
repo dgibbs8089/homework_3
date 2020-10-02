@@ -30,6 +30,7 @@ header {
     color: hsl(206, 17%, 28%);
 }
 
+/* formatting for main box on screen containing main elements */
 .card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
@@ -72,6 +73,7 @@ header {
     clear: both;
 }
 
+/* formatting related to buttons */
 .btn {
     border: none;
     background-color: hsl(360, 91%, 36%);
@@ -118,20 +120,21 @@ button[disabled] {
     overflow: hidden;
 }
 
+/* media settings for different sized screens */ 
 @media (max-width: 690px) {
-  .btn {
+.btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
-  }
+}
 
-  #password {
+#password {
     font-size: 1rem;
-  }
+}
 }
 
 @media (max-width: 500px) {
-  .btn {
+.btn {
     font-size: 0.8rem;
-  }
+}
 }
